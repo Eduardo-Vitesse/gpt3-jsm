@@ -1,5 +1,7 @@
 import "./styles.css";
 
-export default function Feature() {
+const Feature = () => {
   return <div>Feature</div>;
-}
+};
+
+export default Feature;

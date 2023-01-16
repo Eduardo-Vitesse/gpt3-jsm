@@ -1,5 +1,7 @@
 import "./styles.css";
 
-export default function Article() {
+const Article = () => {
   return <div>Article</div>;
-}
+};
+
+export default Article;

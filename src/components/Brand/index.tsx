@@ -1,5 +1,7 @@
 import "./styles.css";
 
-export default function Brand() {
+const Brand = () => {
   return <div>Brand</div>;
-}
+};
+
+export default Brand;

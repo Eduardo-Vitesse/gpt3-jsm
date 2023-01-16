@@ -8,6 +8,8 @@ import {
 } from "./containers";
 import { Cta, Brand, Navbar } from "./components";
 
+import "./styles/App.css";
+
 export default function App() {
   return (
     <div className="App">

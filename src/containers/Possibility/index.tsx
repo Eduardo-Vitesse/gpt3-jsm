@@ -1,5 +1,7 @@
 import "./styles.css";
 
-export default function Possibility() {
+const Possibility = () => {
   return <div>Possibility</div>;
-}
+};
+
+export default Possibility;
