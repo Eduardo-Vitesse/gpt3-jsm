@@ -8,22 +8,24 @@ import {
 } from "./containers";
 import { Cta, Brand, Navbar } from "./components";
 
-import "./styles/App.css";
+import "./styles/global.css";
 
 export default function App() {
   return (
-    <div className="App">
+    <>
       <div className="gradient__bg">
         <Navbar />
         <Header />
       </div>
-      <Brand />
-      <WhatGPT3 />
-      <Features />
-      <Possibility />
-      <Cta />
-      <Blog />
+      <div className="container">
+        <Brand />
+        <WhatGPT3 />
+        <Features />
+        <Possibility />
+        <Cta />
+        <Blog />
+      </div>
       <Footer />
-    </div>
+    </>
   );
 }

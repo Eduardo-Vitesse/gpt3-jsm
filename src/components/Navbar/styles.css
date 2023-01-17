@@ -29,7 +29,7 @@
 
 .gpt3__navbar-links_container a {
     text-decoration: none;
-    color: #fff;
+    color: var(--color-neutral);
 }
 
 .gpt3__navbar-sign {
@@ -41,8 +41,8 @@
 .gpt3__navbar-links_container p,
 .gpt3__navbar-sign p,
 .gpt3__navbar-menu_container p {
-    color: #fff;
-    font-family: var(--font-family);
+    color: var(--color-neutral);
+    
     font-weight: 500;
     font-size: 18px;
     line-height: 25px;
@@ -55,9 +55,9 @@
 .gpt3__navbar-sign button,
 .gpt3__navbar-menu_container button {
     padding: 0.5rem 1rem;
-    color: #fff;
-    background: #FF4820;
-    font-family: var(--font-family);
+    color: var(--color-neutral);
+    background-color: var(--color-button-bg);
+    
     font-weight: 500;
     font-size: 18px;
     line-height: 25px;
@@ -104,7 +104,7 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 25px;
-    color: #fff;
+    color: var(--color-neutral);
     text-decoration: none;
 }
 

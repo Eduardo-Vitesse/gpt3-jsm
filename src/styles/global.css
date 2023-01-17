@@ -3,10 +3,16 @@
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-family: var(--font-family);
 }
 
 body {
     background-color: var(--color-bg);
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
 }
 
 .gradient__bg {
@@ -18,9 +24,10 @@ body {
 }
 
 .gradient__text {
-    background-color: var(--gradient-text);
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
     background-clip: text;
     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     -webkit-text-fill-color: transparent;
 }
 
